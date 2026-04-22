@@ -74,4 +74,4 @@ cd conversor-de-moedas
 
 ## 👨‍💻 Autor
 
-Desenvolvido por Gabriel 🚀
+Desenvolvido por Gabriel Costa da Silva - Pra Cima🚀!
