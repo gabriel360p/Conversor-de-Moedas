@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <main>
+        <picture class="picture-logo">
+        </picture>
+
+        <div class="main-div">
+
+            <div class="div-inputs">
+                <h1>Quanto vale meu Real?</h1>
+                <label for="to">Converter <b>para</b></label>
+                <select class="input to" id="to">
+                    <option value="0" selected>US$ Dólar Americano</option>
+                    <option value="1">£ Libras</option>
+                    <option value="2">€ Euro</option>
+                    <option value="3">₿ Bitcoin</option>
+                </select>
+
+                <label for="cotation-result"><b>Valor</b></label>
+                <input id="cotation-result" placeholder="Valor a ser convertido" type="number"
+                    class="input value-cotation">
+
+                <button class="btn-convert" type="button">Converter</button>
+            </div>
+
+            <div class="div-results">
+                <div class="country-div">
+                    <picture>
+                        <img src="./assets/icons/brasil-icon.png" alt="bandeira-país" class="country-flag">
+                        <legend>R$ Real Brasileiro</legend>
+                    </picture>
+                    <span class="value-input">
+                    </span>
+                </div>
+
+                <div>
+                    <picture>
+                        <img src="./assets/utilits/down-arrow.png" alt="seta">
+                    </picture>
+                </div>
+
+                <div class="coin-div">
+                    <div>
+                        <picture>
+                            <img src="./assets/icons/eua-icon.png" alt="bandeira-moeda" class="country-flag-output">
+                        </picture>
+                    </div>
+                    <span class="value-output">
+                        Aguardando Valor
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
